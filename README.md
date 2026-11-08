@@ -44,6 +44,9 @@ https://music.163.com/song?id=421807904&uct2=U2FsdGVkX18C86nvptSGB87RvOKtOyNTjg8
 > [在网易云音乐中打开](https://music.163.com/song?id=421807904)
 ```
 
+![alt text](fig/image.png)
+
+
 ## 功能
 
 - 粘贴网易云歌曲链接后自动替换为歌曲卡片
@@ -286,37 +289,6 @@ npm run check   # 只做 TypeScript 类型检查
 ```
 
 `main.js` 是构建产物，已加入 `.gitignore`，由 GitHub Actions 在发布时自动生成并附加到 Release。
-
-## 发布到 GitHub
-
-本项目的本地 Git 仓库和初始提交已经准备好。首次上传时：
-
-1. 在 GitHub 上新建一个空仓库，建议命名为 `obsidian-netease-music-card`，不要勾选初始化 README。
-2. 执行：
-
-```bash
-git remote add origin https://github.com/<你的 GitHub 用户名>/obsidian-netease-music-card.git
-git branch -M main
-git push -u origin main
-```
-
-3. 创建 `1.0.0` 标签并推送：
-
-```bash
-git tag 1.0.0
-git push origin 1.0.0
-```
-
-推送标签后，`.github/workflows/release.yml` 会自动构建 `main.js` 并创建 GitHub Release，附带 `main.js`、`manifest.json` 和 `styles.css`。
-
-后续版本发布：
-
-```bash
-npm version patch   # 或 minor / major
-git push --follow-tags
-```
-
-更详细的步骤、仓库信息填写和 Obsidian 社区市场提交方法见 [PUBLISHING.md](PUBLISHING.md)。
 
 ## 已知限制
 
