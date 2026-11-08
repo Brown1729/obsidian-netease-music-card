@@ -1,0 +1,25 @@
+# Obsidian
+.obsidian/
+
+# Build output
+main.js
+*.map
+
+# npm
+node_modules/
+npm-debug.log*
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp-*

@@ -1,0 +1,9 @@
+{
+  "id": "netease-music-card",
+  "name": "NetEase Music Card",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "粘贴网易云音乐分享链接，自动生成歌曲卡片，并可把封面保存到本地。",
+  "author": "29490",
+  "isDesktopOnly": false
+}

@@ -1,0 +1,28 @@
+/* NetEase Music Card */
+
+.callout[data-callout="netease"] {
+	--callout-color: 224, 60, 60;
+	--callout-icon: lucide-music;
+}
+
+.callout[data-callout="netease"] .callout-title-inner {
+	font-weight: 600;
+}
+
+.callout[data-callout="netease"] .callout-content > p {
+	margin-block: 0.35em;
+}
+
+.callout[data-callout="netease"] .callout-content img {
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
+}
+
+.theme-dark .callout[data-callout="netease"] .callout-content img {
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.netease-link-input {
+	width: 100%;
+	margin-bottom: 1em;
+}
